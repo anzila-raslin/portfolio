@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 197, 222);
+}
+
+/* .logo{} */
+nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+li:hover{
+    color: rgb(184, 79, 79);
+}
+
+.head-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.bi{
+    position:relative;
+    padding: 10px;
+    top: 150px;
+    font-size: 20px;
+}
+
+.bi:hover{
+    color: goldenrod;
+}
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    width: 480px;
+    /* border: 2px solid; */
+}
+
+span {
+    color: goldenrod;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    color: rgb(93, 95, 98);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+}
+.image-section{
+    width: 700px;
+    height:600px;
+    /* border: 2px solid; */
+}
+
+.shape {
+    width: 500px;
+    position: absolute;
+    left: 880px;
+    top: 155px;
+    transition: 1s;
+}
+
+.girl {
+    width: 400px;
+    position: relative;
+   left: 200px;
+    top: 55px;
+    transition: 1s;
+}
+.image-section .shape:hover{
+    transform: translateY(-50px);
+}
+.image-section .girl:hover{
+    transform: translateX(-50px);
+}
