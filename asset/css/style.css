@@ -97,9 +97,9 @@ button {
     top: 55px;
     transition: 1s;
 }
-.image-section .shape:hover{
-    transform: translateY(-60px);
+.image-section:hover .shape{
+    transform: translateY(-50px);
 }
-.image-section .girl:hover{
+.image-section:hover .girl{
     transform: translateX(-50px);
 }
