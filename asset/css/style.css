@@ -13,23 +13,27 @@ nav ul li {
     display: inline;
     text-transform: uppercase;
     padding: 25px;
+    cursor: pointer;
 }
 
 li:hover{
     color: rgb(184, 79, 79);
 }
 
+
 .head-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    cursor: pointer;
 }
 .bi{
     position:relative;
     padding: 10px;
     top: 150px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .bi:hover{
@@ -75,6 +79,7 @@ button {
     width: 700px;
     height:600px;
     /* border: 2px solid; */
+    cursor: pointer;
 }
 
 .shape {
@@ -93,7 +98,7 @@ button {
     transition: 1s;
 }
 .image-section .shape:hover{
-    transform: translateY(-50px);
+    transform: translateY(-60px);
 }
 .image-section .girl:hover{
     transform: translateX(-50px);
